@@ -41,3 +41,87 @@
 
 
 
+/* hero banner section */
+
+.hero-banner{
+  background-image: url(./assets/hero-bg.png);
+  background-repeat: repeat;
+  width: 100%;
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  
+}
+
+.hero-banner .button1{
+  width: 229px;
+  height: 35px;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  padding: 8px 20px;
+  border-radius: 50px;
+  font-size: 0.9rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 25px;
+  color: #30B868;
+
+}
+
+.highlight{
+  color: #30B868;
+  margin-top: 10px;
+}
+
+.hero-banner h1{
+  color: white;
+  margin-top: 10px;
+}
+
+.hero-banner p{
+  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  opacity: 0.85;
+  line-height: 1.5;
+
+}
+
+.hero-banner .hero-btns{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+
+
+.btn2{
+    
+    background-color: #4a906d;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 16px 12px 16px;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.btn3{
+  background: transparent;
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  width: 200px;
+  cursor: pointer;
+  
+}
+
+
+
+/* hero banner section end */
