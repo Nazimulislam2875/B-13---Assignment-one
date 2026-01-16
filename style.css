@@ -133,6 +133,8 @@
   padding: 80px 5%;
   background-color: #ffffff;
   text-align: center;
+  padding-top: 60px;    /* উপরে প্যাডিং কমানো হলো */
+  padding-bottom: 20px;
 }
 
 .section-header h2 {
@@ -153,6 +155,7 @@
   display: flex;
   justify-content: center;
   gap: 25px;
+  margin-bottom: 0px;
  
 }
 
@@ -204,8 +207,9 @@
 /* Brain section start here */
 
 .solution-section {
-  padding: 100px 5%;
+  padding: 10px 5%;
   background-color: #ffffff;
+  margin-top: 40px;
 }
 
 .solution-section .container {
@@ -280,3 +284,58 @@
 /*Brain section end here */
 
 
+/* chellenging part start here */
+
+.cta-section{
+  display: flex;
+  justify-content: center;
+  background-color: #ffffff;
+  padding: 100px 100px;
+}
+
+.cta-card{
+  background-color: #f9f8f4;
+  padding: 6px 70px;
+  border-radius: 16px;
+  text-align: center;
+  max-width: 900px;
+  width: 100%;
+}
+
+.cta-card h2{
+  font-size: 2.5rem;
+  color: #0f2135;
+  margin-bottom: 20px;
+  font-weight: 800;
+}
+
+.cta-subtitle{
+  font-size: 1.1rem;
+  color:black;
+  line-height: 1.6;
+  margin-bottom: 80;
+}
+
+.cta-button .btn-primary{
+  background-color: #4a906d;
+  color: #ffffff;
+  padding: 16px 32px;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.ending-message{
+  font-size: 0.95rem;
+  color: black;
+  font-weight: 500;
+}
+
+/* chellenging part end here */
