@@ -123,5 +123,81 @@
 }
 
 
-
 /* hero banner section end */
+
+
+
+/* card section start here */
+
+.notes-section {
+  padding: 80px 5%;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.section-header h2 {
+  font-size: 2.5rem;
+  color: #0f2135;
+  margin-bottom: 15px;
+  font-weight: 800;
+}
+
+.section-header p {
+  color: #666;
+  font-size: 1.1rem;
+  margin-bottom: 50px;
+}
+
+
+.cards-container {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+ 
+}
+
+.note-card {
+  background: #ffffff;
+  border: 1px solid #f0f0f0;
+  border-radius: 12px;
+  padding: 40px 30px;
+  min-width: 250px;
+  max-width: 300px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.03);
+  
+}
+
+
+.icon-box {
+  width: 60px;
+  height: 60px;
+  background-color: #ff6b6b; 
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 25px;
+}
+
+.icon-box img {
+  width: 30px; 
+  height: auto;
+}
+
+.note-card h3 {
+  font-size: 1.4rem;
+  color: #0f2135;
+  margin-bottom: 15px;
+  font-weight: 700;
+}
+
+.note-card p {
+  color: #777;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+/* card sectin end here */
+
+
+
